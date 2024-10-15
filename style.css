@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer {
+    padding: 80px 165px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FAFAFA;
+    gap: 64px;
+}
+
+.body {
+    font-family: "Poppins", serif;
+}
+
+.text-box {
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.line1 {
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 275;
+    letter-spacing: 0.25px;
+}
+
+.line2 {
+    color: #4D4F62;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    
+}
+
+
+.line3 {
+    color: #4D4F62;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.104px;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+
+.headline {
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about {
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    opacity: 0.5;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    position: relative;
+    border-top: 4px solid #44D3D2;
+}
+
+.rectangle-red {
+    border-top: 4px solid #EA5454;
+}
+
+.rectangle-orange {
+    border-top: 4px solid #FCAE4A;
+}
+
+.rectangle-blue {
+    border-top: 4px solid #549EF2;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 6px;
+
+}
+
+
+.twoboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
