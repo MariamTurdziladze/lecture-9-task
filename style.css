@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.outer {
-    padding: 80px 165px;
-}
-
 .container {
     display: flex;
     flex-direction: column;
