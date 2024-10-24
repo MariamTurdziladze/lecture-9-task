@@ -134,3 +134,40 @@
     flex-direction: column;
     gap: 30px;
 }
+
+@media (max-width:600px) {
+
+    .container {
+        height: 165vh;
+        
+    }
+    
+    
+    .box-container {
+        flex-direction: column;   
+        }
+        
+    .text-box {
+        width: 311px;
+        
+    }
+    
+    .line1 {
+        font-size: 24px;
+        letter-spacing: 0.167px;
+    }
+    
+    .line2 {
+        font-size: 24px;
+        letter-spacing: 0.167px;
+        
+    }
+    
+    
+    .pic {
+        width: 57px;
+        height: 57px;
+    }
+    
+    
+    }
